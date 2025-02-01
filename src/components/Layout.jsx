@@ -1,5 +1,6 @@
 import { Fragment } from "react";
 import { Link, NavLink} from "react-router-dom";
+import { Notifications } from "./Notifications";
 
 const navLinks = [
   { title: "Home", to: "/", icon: "feather-home" },
@@ -46,7 +47,9 @@ export const Layout = ({ children }) => (
       </NavLink>
     ))}
 
-{/* desktop menu */}
+{/*Desktop menu */}
+
+<Notifications />
 
 <Link
       to="/defaultmessage"
@@ -59,7 +62,8 @@ export const Layout = ({ children }) => (
       <img src="assets/images/user.png" alt="user" className="w40 mt--1" />
     </Link>
 
-    {children}
+
   </div>
+  {children}
   </Fragment>
   );
