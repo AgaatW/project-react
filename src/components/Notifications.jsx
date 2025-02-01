@@ -23,9 +23,9 @@ export const Notifications = () => {
       </span>
 
       {/* alli =  */}
-      
+
       <div
-        className={`dropdown-menu px-4 right-0 rounded-xxl border-0 shadow-lg ${notiClass}`}
+        className={`dropdown-menu p-7 right-0 rounded-xxl border-0 shadow-lg ${notiClass}`}
         aria-labelledby="dropdownMenu3"
       >
         <h4 className="fw-700 font-xss mb-4">Notification</h4>
